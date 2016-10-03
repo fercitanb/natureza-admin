@@ -49,13 +49,13 @@
                 }
                 else
                 {
-                    echo "rol: ".$item;
+                    echo "rol: ".$rol;
                     $mensaje = "Bienvenido a Natureza,
                         Puede ingresar al sistema con su usuario que es su cédula de identidad y su contraseña: " .$contra;
 
                     $to = $email;
                     $subject ='INGRESO AL SISTEMA DE NATUREZA';
-                    $header = 'From: mfndpb@gmail.com'.
+                    $header = 'From: natureza.bo@gmail.com'.
                         'MIME-Version: 1.0'.'\r\n'.
                         'Content-type: text/html; charset=utf-8';
 
