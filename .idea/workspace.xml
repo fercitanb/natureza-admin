@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ade76c69-0dfd-41b4-a71e-d29817a6ca48" name="Default" comment="" />
+    <ignored path="Natureza.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Natureza" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vistas/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="25" column="72" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
+              <folding>
+                <marker date="1475467788829" expanded="true" signature="460:510" ph="SELECT IdRol... usuariorol" />
+                <marker date="1475467788829" expanded="true" signature="466:510" ph="Select IdRol... usuariorol" />
+                <marker date="1475467788829" expanded="true" signature="3347:3405" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Vistas/ajax/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="formNuevoUsuario.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vistas/ajax/formNuevoUsuario.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2616">
+              <caret line="205" column="45" selection-start-line="205" selection-start-column="20" selection-end-line="205" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insertarNuevoUsuario.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procesos/insertarNuevoUsuario.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="858">
+              <caret line="69" column="27" selection-start-line="68" selection-start-column="20" selection-end-line="69" selection-end-column="27" />
+              <folding>
+                <marker date="1475470120669" expanded="true" signature="586:773" ph="INSERT INTO usuario... " />
+                <marker date="1475470120669" expanded="true" signature="586:816" ph="INSERT INTO usuario... " />
+                <marker date="1475470120669" expanded="true" signature="835:1016" ph="SELECT idUsu... usuario" />
+                <marker date="1475470120669" expanded="true" signature="1556:1592" ph="SELECT * FRO... usuario" />
+                <marker date="1475470120669" expanded="true" signature="1794:1856" ph="INSERT INTO usuariorol... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="formProducto.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vistas/ajax/formProducto.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2090">
+              <caret line="95" column="106" selection-start-line="95" selection-start-column="106" selection-end-line="95" selection-end-column="106" />
+              <folding>
+                <marker date="1475480962887" expanded="true" signature="454:501" ph="DELETE FROM " />
+                <marker date="1475480962887" expanded="true" signature="1435:1457" ph="SELECT * FRO... producto" />
+                <marker date="1475480962887" expanded="true" signature="6093:6133" ph="SELECT * FRO... producto" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nuevoProducto.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procesos/nuevoProducto.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+              <folding>
+                <marker date="1475477896690" expanded="true" signature="707:833" ph="INSERT INTO Producto... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Procesos/instaladorBD.php" />
+        <option value="$PROJECT_DIR$/Vistas/ajax/formNuevoEquipo.php" />
+        <option value="$PROJECT_DIR$/Vistas/ajax/formEditUsuario.php" />
+        <option value="$PROJECT_DIR$/Procesos/ModificarUsuario.php" />
+        <option value="$PROJECT_DIR$/Procesos/cambiarEstadoUsuario.php" />
+        <option value="$PROJECT_DIR$/Vistas/css/style_v2.css" />
+        <option value="$PROJECT_DIR$/Vistas/ajax/page_login_v1.html" />
+        <option value="$PROJECT_DIR$/Vistas/plugins/bootstrap/bootstrap.css" />
+        <option value="$PROJECT_DIR$/Vistas/ajax/page_login.html" />
+        <option value="$PROJECT_DIR$/Vistas/plugins/datatables/dataTables.bootstrap.js" />
+        <option value="$PROJECT_DIR$/Vistas/plugins/datatables/jquery.dataTables.js" />
+        <option value="$PROJECT_DIR$/Vistas/index.html" />
+        <option value="$PROJECT_DIR$/Procesos/cerrarSesion.php" />
+        <option value="$PROJECT_DIR$/Procesos/usuarioRol.php" />
+        <option value="$PROJECT_DIR$/Vistas/ajax/frmEmpleado.php" />
+        <option value="$PROJECT_DIR$/Datos/conexion.php" />
+        <option value="$PROJECT_DIR$/Vistas/ajax/formEmpleado.php" />
+        <option value="$PROJECT_DIR$/Vistas/verificar.php" />
+        <option value="$PROJECT_DIR$/Vistas/ajax/login.html" />
+        <option value="$PROJECT_DIR$/Vistas/ajax/formZona.php" />
+        <option value="$PROJECT_DIR$/Vistas/ajax/formCambiarEstadoUsuario.php" />
+        <option value="$PROJECT_DIR$/Procesos/Usuario.php" />
+        <option value="$PROJECT_DIR$/Procesos/cambiarContraseña.php" />
+        <option value="$PROJECT_DIR$/Vistas/ajax/formAdmUsuario.php" />
+        <option value="$PROJECT_DIR$/Vistas/ajax/formCambiarContraseña.php" />
+        <option value="$PROJECT_DIR$/email/envioMail.php" />
+        <option value="$PROJECT_DIR$/Procesos/autentificacion.php" />
+        <option value="$PROJECT_DIR$/Vistas/ajax/formModUsuario.php" />
+        <option value="$PROJECT_DIR$/Vistas/ajax/formNuevoUsuario.php" />
+        <option value="$PROJECT_DIR$/Procesos/modificarProducto.php" />
+        <option value="$PROJECT_DIR$/Procesos/insertarNuevoDistribuidor.php" />
+        <option value="$PROJECT_DIR$/Procesos/modificarUsuario.php" />
+        <option value="$PROJECT_DIR$/Vistas/ajax/formCliente.php" />
+        <option value="$PROJECT_DIR$/Procesos/modificarDistribuidor.php" />
+        <option value="$PROJECT_DIR$/Procesos/modificarCliente.php" />
+        <option value="$PROJECT_DIR$/Vistas/ajax/frmAdmCliente.php" />
+        <option value="$PROJECT_DIR$/Vistas/ajax/formDistribuidor.php" />
+        <option value="$PROJECT_DIR$/Vistas/ajax/formClienteDireccion.php" />
+        <option value="$PROJECT_DIR$/Procesos/insertarNuevoCliente.php" />
+        <option value="$PROJECT_DIR$/Vistas/ajax/formNuevaDireccion.php" />
+        <option value="$PROJECT_DIR$/Procesos/insertarNuevaDireccion.php" />
+        <option value="$PROJECT_DIR$/Procesos/nuevoEquipo.php" />
+        <option value="$PROJECT_DIR$/Procesos/modificarEquipo.php" />
+        <option value="$PROJECT_DIR$/Vistas/ajax/formEquipo.php" />
+        <option value="$PROJECT_DIR$/Vistas/js/devoops.js" />
+        <option value="$PROJECT_DIR$/Vistas/index.php" />
+        <option value="$PROJECT_DIR$/Vistas/ajax/welcome.php" />
+        <option value="$PROJECT_DIR$/Vistas/css/style_v1.css" />
+        <option value="$PROJECT_DIR$/Procesos/insertarNuevoUsuario.php" />
+        <option value="$PROJECT_DIR$/Procesos/nuevoProducto.php" />
+        <option value="$PROJECT_DIR$/Vistas/ajax/formProducto.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1924" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Natureza" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Natureza" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Natureza" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Natureza\Vistas" />
+      <recent name="C:\xampp\htdocs\Natureza\Vistas\ajax" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ade76c69-0dfd-41b4-a71e-d29817a6ca48" name="Default" comment="" />
+      <created>1473974899182</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1473974899182</updated>
+      <workItem from="1473974900572" duration="12405000" />
+      <workItem from="1474056353855" duration="31894000" />
+      <workItem from="1474204477937" duration="53875000" />
+      <workItem from="1474304456928" duration="3033000" />
+      <workItem from="1474321425713" duration="18900000" />
+      <workItem from="1474376777935" duration="9941000" />
+      <workItem from="1474507829617" duration="4235000" />
+      <workItem from="1474771575796" duration="136000" />
+      <workItem from="1474772370093" duration="3465000" />
+      <workItem from="1474840323958" duration="18848000" />
+      <workItem from="1474931962583" duration="32942000" />
+      <workItem from="1474983039175" duration="6160000" />
+      <workItem from="1474990156310" duration="2636000" />
+      <workItem from="1475089399839" duration="53169000" />
+      <workItem from="1475155552712" duration="8727000" />
+      <workItem from="1475271338226" duration="593000" />
+      <workItem from="1475385574712" duration="586000" />
+      <workItem from="1475441670874" duration="19449000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="280994000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1924" height="1048" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1610703" sideWeight="0.47859496" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24791667" sideWeight="0.52140504" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Vistas/ajax/formAdmUsuario.php</url>
+          <line>79</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="11" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Vistas/plugins/datatables/dataTables.bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="73" column="18" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/plugins/datatables/TableTools.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="601" column="38" selection-start-line="601" selection-start-column="33" selection-end-line="601" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/plugins/datatables/jquery.dataTables.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="10849" column="35" selection-start-line="10849" selection-start-column="35" selection-end-line="10849" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/index.html" />
+    <entry file="file://$PROJECT_DIR$/Vistas/ajax/frmEmpleado.php" />
+    <entry file="file://$PROJECT_DIR$/Vistas/sesion.php" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_7.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22286">
+          <caret line="1013" column="20" selection-start-line="1013" selection-start-column="20" selection-end-line="1013" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procesos/cambiarContraseña.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procesos/cerrarSesion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/ajax/formCambiarContraseña.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procesos/usuarioRol.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="32" />
+          <folding>
+            <marker date="1474350431589" expanded="true" signature="517:562" ph="Select IdRol... usuariorol" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/email/envioMail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="5" selection-start-line="3" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procesos/autentificacion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <folding>
+            <marker date="1474984100089" expanded="true" signature="293:379" ph="SELECT * FRO... usuario" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procesos/Usuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+          <folding>
+            <marker date="1474381592322" expanded="true" signature="1760:1844" ph="Select * fro... usuario" />
+            <marker date="1474381592322" expanded="true" signature="1760:1845" ph="Select * fro... usuario" />
+            <marker date="1474381592322" expanded="true" signature="2598:2636" ph="Select * fro... Usuario" />
+            <marker date="1474381592322" expanded="true" signature="3300:3321" ph="Select * fro... usuario" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procesos/cambiarEstadoUsuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datos/conexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="72" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/web-forms2.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1876">
+          <caret line="67" column="31" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/ajax/formCambiarEstadoUsuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="150" column="21" selection-start-line="150" selection-start-column="21" selection-end-line="162" selection-end-column="37" />
+          <folding>
+            <marker date="1474950122945" expanded="true" signature="334:403" ph="UPDATE usuar... " />
+            <marker date="1474950122945" expanded="true" signature="2599:2682" ph="SELECT idUsu... usuario" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/ajax/formEmpleado.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procesos/modificarUsuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1475141126479" expanded="true" signature="501:649" ph="UPDATE usuar... " />
+            <marker date="1475141126479" expanded="true" signature="501:667" ph="UPDATE usuar... " />
+            <marker date="1475141126479" expanded="true" signature="501:671" ph="UPDATE usuar... " />
+            <marker date="1475141126479" expanded="true" signature="845:879" ph="UPDATE usuar... " />
+            <marker date="1475141126479" expanded="true" signature="845:901" ph="UPDATE usuar... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procesos/modificarDistribuidor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <marker date="1475141508538" expanded="true" signature="475:645" ph="UPDATE usuar... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/ajax/formZona.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/ajax/formAdmUsuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="87" column="46" selection-start-line="87" selection-start-column="46" selection-end-line="87" selection-end-column="46" />
+          <folding>
+            <marker date="1474966862978" expanded="true" signature="4167:4184" ph="SELECT * FRO... rol" />
+            <marker date="1474966862978" expanded="true" signature="4167:4204" ph="SELECT * FRO... rol" />
+            <marker date="1474966862978" expanded="true" signature="6572:6579" ph="SELECT ci,no... usuario" />
+            <marker date="1474966862978" expanded="true" signature="6572:6646" ph="SELECT idUsu... usuario" />
+            <marker date="1474966862978" expanded="true" signature="6828:6873" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/ajax/formModUsuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="101" column="52" selection-start-line="101" selection-start-column="52" selection-end-line="101" selection-end-column="52" />
+          <folding>
+            <marker date="1475118411101" expanded="true" signature="1921:1995" ph="SELECT idUsu... usuario" />
+            <marker date="1475118411101" expanded="true" signature="4092:4135" ph="SELECT * FRO... usuario" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procesos/modificarCliente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <marker date="1475141610352" expanded="true" signature="427:597" ph="UPDATE usuar... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procesos/insertarNuevoDistribuidor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="13" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="92" selection-end-column="2" />
+          <folding>
+            <marker date="1475139688168" expanded="true" signature="504:734" ph="INSERT INTO usuario... " />
+            <marker date="1475139688168" expanded="true" signature="749:930" ph="SELECT idUsu... usuario" />
+            <marker date="1475139688168" expanded="true" signature="1406:1442" ph="SELECT * FRO... usuario" />
+            <marker date="1475139688168" expanded="true" signature="1628:1687" ph="INSERT INTO usuariorol... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/ajax/formDistribuidor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="180" column="198" selection-start-line="180" selection-start-column="20" selection-end-line="180" selection-end-column="198" />
+          <folding>
+            <marker date="1475143371287" expanded="true" signature="315:384" ph="UPDATE usuar... " />
+            <marker date="1475143371287" expanded="true" signature="1401:1452" ph="SELECT * FRO... usuario" />
+            <marker date="1475143371287" expanded="true" signature="9165:9306" ph="SELECT u.idU... usuario" />
+            <marker date="1475143371287" expanded="true" signature="9165:9331" ph="SELECT u.idU... usuario" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/ajax/frmAdmCliente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procesos/insertarNuevoCliente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="42" column="77" selection-start-line="42" selection-start-column="77" selection-end-line="42" selection-end-column="77" />
+          <folding>
+            <marker date="1475155876341" expanded="true" signature="504:734" ph="INSERT INTO usuario... " />
+            <marker date="1475155876341" expanded="true" signature="751:932" ph="SELECT idUsu... usuario" />
+            <marker date="1475155876341" expanded="true" signature="1415:1464" ph="INSERT INTO cliente... " />
+            <marker date="1475155876341" expanded="true" signature="1490:1526" ph="SELECT * FRO... usuario" />
+            <marker date="1475155876341" expanded="true" signature="1712:1771" ph="INSERT INTO usuariorol... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/verificar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/ajax/formClienteDireccion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+          <folding>
+            <marker date="1475151666155" expanded="true" signature="315:384" ph="UPDATE usuar... " />
+            <marker date="1475151666155" expanded="true" signature="1316:1492" ph="SELECT * FRO... usuario" />
+            <marker date="1475151666155" expanded="true" signature="1316:1493" ph="SELECT u.idU... usuario" />
+            <marker date="1475151666155" expanded="true" signature="1659:1700" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/ajax/formNuevaDireccion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+          <folding>
+            <marker date="1475159126139" expanded="true" signature="249:262" ph="SELECT * FRO... " />
+            <marker date="1475159126139" expanded="true" signature="249:294" ph="SELECT * FRO... direccion" />
+            <marker date="1475159126139" expanded="true" signature="339:382" ph="SELECT * FRO... usuario" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procesos/insertarNuevaDireccion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding>
+            <marker date="1475159126213" expanded="true" signature="355:530" ph="INSERT INTO direccion... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/ajax/formCliente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <marker date="1475141363222" expanded="true" signature="316:385" ph="UPDATE usuar... " />
+            <marker date="1475141363222" expanded="true" signature="1387:1438" ph="SELECT * FRO... usuario" />
+            <marker date="1475141363222" expanded="true" signature="9119:9285" ph="SELECT u.idU... usuario" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procesos/modificarProducto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="23" selection-start-line="1" selection-start-column="4" selection-end-line="30" selection-end-column="23" />
+          <folding>
+            <marker date="1475136600206" expanded="true" signature="376:471" ph="UPDATE produ... " />
+            <marker date="1475136600206" expanded="true" signature="764:876" ph="UPDATE produ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="1093" column="9" selection-start-line="1093" selection-start-column="9" selection-end-line="1093" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procesos/nuevoEquipo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+          <folding>
+            <marker date="1475161982889" expanded="true" signature="383:514" ph="INSERT INTO Equipo... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/ajax/formNuevoEquipo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="40" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procesos/modificarEquipo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding>
+            <marker date="1475163165505" expanded="true" signature="409:510" ph="UPDATE equip... " />
+            <marker date="1475163165505" expanded="true" signature="693:812" ph="UPDATE equip... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/ajax/formEquipo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="36" column="64" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
+          <folding>
+            <marker date="1475163252873" expanded="true" signature="412:455" ph="DELETE FROM " />
+            <marker date="1475163252873" expanded="true" signature="1363:1383" ph="SELECT * FRO... equipo" />
+            <marker date="1475163252873" expanded="true" signature="6005:6041" ph="SELECT * FRO... producto" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/js/devoops.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="2982" column="55" selection-start-line="2982" selection-start-column="55" selection-end-line="2982" selection-end-column="55" />
+          <folding>
+            <marker date="1475458848219" expanded="true" signature="9106:9121" ph="..." />
+            <marker date="1475458848219" expanded="true" signature="9159:9174" ph="..." />
+            <marker date="1475458848219" expanded="true" signature="16209:16224" ph="..." />
+            <marker date="1475458848219" expanded="true" signature="16752:16767" ph="..." />
+            <marker date="1475458848219" expanded="true" signature="78503:78509" ph="©" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/css/style_v1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="1075" column="19" selection-start-line="1075" selection-start-column="19" selection-end-line="1075" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/css/style_v2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="1027" column="7" selection-start-line="1027" selection-start-column="1" selection-end-line="1027" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/ajax/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/img/welcome.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/ajax/formNuevoUsuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2616">
+          <caret line="205" column="45" selection-start-line="205" selection-start-column="20" selection-end-line="205" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procesos/insertarNuevoUsuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="69" column="27" selection-start-line="68" selection-start-column="20" selection-end-line="69" selection-end-column="27" />
+          <folding>
+            <marker date="1475470120669" expanded="true" signature="586:773" ph="INSERT INTO usuario... " />
+            <marker date="1475470120669" expanded="true" signature="586:816" ph="INSERT INTO usuario... " />
+            <marker date="1475470120669" expanded="true" signature="835:1016" ph="SELECT idUsu... usuario" />
+            <marker date="1475470120669" expanded="true" signature="1556:1592" ph="SELECT * FRO... usuario" />
+            <marker date="1475470120669" expanded="true" signature="1794:1856" ph="INSERT INTO usuariorol... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/ajax/formProducto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2090">
+          <caret line="95" column="106" selection-start-line="95" selection-start-column="106" selection-end-line="95" selection-end-column="106" />
+          <folding>
+            <marker date="1475480962887" expanded="true" signature="454:501" ph="DELETE FROM " />
+            <marker date="1475480962887" expanded="true" signature="1435:1457" ph="SELECT * FRO... producto" />
+            <marker date="1475480962887" expanded="true" signature="6093:6133" ph="SELECT * FRO... producto" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procesos/nuevoProducto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <marker date="1475477896690" expanded="true" signature="707:833" ph="INSERT INTO Producto... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="72" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
+          <folding>
+            <marker date="1475467788829" expanded="true" signature="460:510" ph="SELECT IdRol... usuariorol" />
+            <marker date="1475467788829" expanded="true" signature="466:510" ph="Select IdRol... usuariorol" />
+            <marker date="1475467788829" expanded="true" signature="3347:3405" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/ajax/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
