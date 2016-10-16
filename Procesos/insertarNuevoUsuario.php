@@ -14,12 +14,19 @@
     $email = $_POST["email"];
     $rol = $_POST["rol"];
 
+    $nombre=mb_strtoupper($nombre, 'UTF-8');
+    $apellidoPaterno=mb_strtoupper($apellidoPaterno, 'UTF-8');
+    $apellidoMaterno=mb_strtoupper($apellidoMaterno, 'UTF-8');
+
     $contra = randomPass();
     $contraEn = md5($contra);
+    $n = substr($nombre, 0,1);
+    $ap = substr($apellidoPaterno, 0,1);
+    $usuario = $n.$ap.$ci;
 
     // Query para guardar en la base de datos
     $QUERY = "INSERT INTO usuario(idUsuario,nombre,apPaterno,apMaterno,ci,usuario,contrasenha,email,estado,telefono)
-              VALUES('','$nombre','$apellidoPaterno','$apellidoMaterno','$ci','$ci','$contraEn','$email','0','$numeroTelefono')";
+              VALUES('','$nombre','$apellidoPaterno','$apellidoMaterno','$ci','$usuario','$contraEn','$email','0','$numeroTelefono')";
 
     $GET_ID = "SELECT idUsuario FROM usuario WHERE nombre='$nombre' AND apPaterno='$apellidoPaterno' AND apMaterno='$apellidoMaterno' AND ci='$ci' AND email='$email' AND telefono='$numeroTelefono'";
     $QUERY_ID = mysqli_query($con,$GET_ID);
@@ -49,10 +56,16 @@
                 }
                 else
                 {
-                    echo "rol: ".$rol;
-                    $mensaje = "Bienvenido a Natureza,
-                        Puede ingresar al sistema con su usuario que es su cédula de identidad y su contraseña: " .$contra;
+                    if ($rol=='4')
+                    {
+                        $QUERYCLIENTE = "INSERT INTO cliente(idUsuario) VALUES ('$ID')";
+                        if (!mysqli_query($con,$QUERYCLIENTE)) {
+                            echo "error al crear cliente".mysql_error();
 
+                        }
+                    }
+                    $mensaje = "Bienvenido a Natureza,
+                        Puede ingresar al sistema con su usuario: ".$usuario." y su contraseña: " .$contra;
                     $to = $email;
                     $subject ='INGRESO AL SISTEMA DE NATUREZA';
                     $header = 'From: natureza.bo@gmail.com'.
@@ -73,6 +86,24 @@
         }
 
 
+    }
+
+    function popup($vMsg,$vDestination) {
+        echo("<html>\n");
+        echo("<head>\n");
+        echo("<title>System Message</title>\n");
+        echo("<meta http-equiv=\"Content-Type\" class='alert' content=\"text/html;
+            charset=iso-8859-1\">\n");
+
+        echo("<script language=\"javascript\" class='alert' type=\"text/javascript\">\n");
+        echo("alert('$vMsg');\n");
+        echo("window.location = ('$vDestination');\n");
+        echo("</script>\n");
+        echo("</head>\n");
+        echo("<body>\n");
+        echo("</body>\n");
+        echo("</html>\n");
+        exit;
     }
 
     function randomPass($tamano=6) {

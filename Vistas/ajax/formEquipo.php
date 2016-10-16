@@ -48,7 +48,7 @@ if (isset($_GET['id_dlt'])) {
             <div class="col-xs-10 col-sm-2">
                 <div class="box box-pricing">
                     <div class="thumbnail">
-                        <img style="width:512px;height: 228px;" src="data:image/jpg;base64,<?php echo base64_encode($row['imagen']);?>" alt="">
+                        <img style="width:512px;height: 228px;" src="<?php echo $row['imagen'];?>" alt="">
                         <div class="caption">
                             <h4 class="text-center"><?php echo $row['nombre'];?></h4>
                             <h5>Descripcion: <?php echo " ".$row['descripcion'];?></h5> <h6>Codigo: <?php echo" ".$row['codigo'];?> </h6>
@@ -156,7 +156,8 @@ if (isset($_GET['id_dlt'])) {
                                 <div class="form-group">
                                     <label class="col-sm-3 control-label">Imagen</label>
                                     <div class="col-sm-5">
-                                        <i class="fa fa-camera"></i><input type="file" name="imagen"/>
+                                        <i class="fa fa-camera"></i><input type="file" name="imagen"/></br>
+                                        <img style="width:208px;height: 158px;" src="<?php echo $equipo_data['imagen'];?>" alt="">
                                         <!--                                <inpu"col-sm-15 col-sm-offset-5"t type="image" class="form-control" name="imagen" />-->
                                     </div>
                                 </div>

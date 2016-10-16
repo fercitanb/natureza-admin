@@ -11,16 +11,19 @@ $longitud = $_POST['txtLongitud'];
 $latitud = $_POST['txtLatitud'];
 $cliente = $_POST['cliente'];
 
-$query_save = mysqli_query($con,"INSERT INTO direccion(idDireccion,latitud,longitud,nombreDireccion,estado,idZona,idCliente) 
-                VALUES ('','$latitud','$longitud','$direccion','1','1','$cliente')");
 
-if (!$query_save){
-    echo "Erro al crear direccion";
+$QUERYDIRECCION="INSERT INTO direccion(idDireccion,latitud,longitud,nombreDireccion,estado,idZona,idCliente)
+                VALUES ('','$latitud','$longitud','$direccion','1','1','$cliente')";
+
+$QUERYCONNECT= mysqli_query($con,$QUERYDIRECCION);
+
+if (!$QUERYCONNECT){
+    echo "Error al crear direccion";
 } else
 {
-    header("Location: ../Vistas/index.php#ajax/formClienteDireccion.php");
+    header("Location: ../Vistas/index.php#ajax/formNuevaDireccion.php?id=".$cliente);
     exit();
 }
 
-mysqli_close($con);;
+mysqli_close($con);
 ?>

@@ -14,6 +14,19 @@ if (!empty($_GET['id_estado'])){
 }
 
 ?>
+
+<div class="row" xmlns="http://www.w3.org/1999/html">
+    <div id="breadcrumb" class="col-xs-12">
+        <a href="#" class="show-sidebar">
+            <i class="fa fa-bars"></i>
+        </a>
+        <ol class="breadcrumb pull-left">
+            <li><a href="#">Administrar Direcciones</a></li>
+        </ol>
+
+    </div>
+</div>
+
 <div class="col-xs-12 col-sm-12">
     <!-- List of Users -->
     <div class="box">
@@ -51,7 +64,7 @@ if (!empty($_GET['id_estado'])){
                         <td><?php echo $row['apPaterno']." ".$row['apMaterno']?></td>
                         <td><?php echo $row['email'];?></td>
                         <td><?php echo $row['telefono'];?></td>
-                        <td><?php $EDIT = $row['idUsuario']; echo "<button onclick=\"vermasdireccion($EDIT)\" type=\"button\" >ver mas direcciones</button>" ?></td>
+                        <td><?php $EDIT = $row['idUsuario']; echo "<button onclick=\"vermasdireccion($EDIT)\" type=\"button\" >Ver Direcciones</button>" ?></td>
                     </tr>
                     <?php
                 endwhile;

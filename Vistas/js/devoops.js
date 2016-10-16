@@ -2981,7 +2981,7 @@ function ValidacionForms() {
 					},
 					regexp: {
 						regexp: /^(E\-|e\-|[0-9])+[0-9]+((\-[0-9]|[10])+[a-zA-Z])?$/,
-						message: 'El carnet debe contener caracteres legalmente establecidos'
+						message: 'Formato de carnet no válido'
 					}
 				}
 			},
@@ -3165,7 +3165,7 @@ function ValidacionUpdateForms() {
 						message: 'El carnet debe tener mínimo 6 caracteres y máximo 11'
 					},
 					regexp: {
-						regexp: /^([e]{0,1})([-1-9]{0,1})([0-9]{5,5})/,
+						regexp: /^(E\-|e\-|[0-9])+[0-9]+((\-[0-9]|[10])+[a-zA-Z])?$/,
 						message: 'El carnet debe contener caracteres legalmente establecidos'
 					}
 				}

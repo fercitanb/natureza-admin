@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ade76c69-0dfd-41b4-a71e-d29817a6ca48" name="Default" comment="" />
+    <list default="true" id="ade76c69-0dfd-41b4-a71e-d29817a6ca48" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Procesos/cambiarContra.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebServices/autentificacion.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebServices/registroCliente.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Procesos/cambiarContraseña.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Vistas/ajax/formCambiarContraseña.php" afterPath="$PROJECT_DIR$/Vistas/ajax/formCambiarContra.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Vistas/img/favicon.ico.jpg" afterPath="$PROJECT_DIR$/Vistas/img/naturezaIndex.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procesos/autentificacion.php" afterPath="$PROJECT_DIR$/Procesos/autentificacion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procesos/cerrarSesion.php" afterPath="$PROJECT_DIR$/Procesos/cerrarSesion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procesos/insertarNuevaDireccion.php" afterPath="$PROJECT_DIR$/Procesos/insertarNuevaDireccion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procesos/insertarNuevoCliente.php" afterPath="$PROJECT_DIR$/Procesos/insertarNuevoCliente.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procesos/insertarNuevoUsuario.php" afterPath="$PROJECT_DIR$/Procesos/insertarNuevoUsuario.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vistas/ajax/formClienteDireccion.php" afterPath="$PROJECT_DIR$/Vistas/ajax/formClienteDireccion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vistas/ajax/formNuevaDireccion.php" afterPath="$PROJECT_DIR$/Vistas/ajax/formNuevaDireccion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vistas/ajax/login.html" afterPath="$PROJECT_DIR$/Vistas/ajax/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vistas/index.php" afterPath="$PROJECT_DIR$/Vistas/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vistas/js/devoops.js" afterPath="$PROJECT_DIR$/Vistas/js/devoops.js" />
+    </list>
     <ignored path="Natureza.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -24,23 +42,81 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Vistas/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="25" column="72" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
+            <state relative-caret-position="3630">
+              <caret line="165" column="75" selection-start-line="165" selection-start-column="75" selection-end-line="165" selection-end-column="75" />
               <folding>
-                <marker date="1475467788829" expanded="true" signature="460:510" ph="SELECT IdRol... usuariorol" />
-                <marker date="1475467788829" expanded="true" signature="466:510" ph="Select IdRol... usuariorol" />
-                <marker date="1475467788829" expanded="true" signature="3347:3405" ph="..." />
+                <marker date="1476207326095" expanded="true" signature="467:517" ph="SELECT IdRol... usuariorol" />
+                <marker date="1476207326095" expanded="true" signature="473:517" ph="Select IdRol... usuariorol" />
+                <marker date="1476207326095" expanded="true" signature="3432:3490" ph="..." />
+                <marker date="1476207326095" expanded="true" signature="4194:4215" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vistas/ajax/login.html">
+      <file leaf-file-name="formNuevaDireccion.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Vistas/ajax/formNuevaDireccion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            <state relative-caret-position="692">
+              <caret line="277" column="4" selection-start-line="277" selection-start-column="4" selection-end-line="277" selection-end-column="4" />
+              <folding>
+                <marker date="1476222973416" expanded="true" signature="249:262" ph="SELECT * FRO... " />
+                <marker date="1476222973416" expanded="true" signature="249:294" ph="SELECT * FRO... direccion" />
+                <marker date="1476222973416" expanded="true" signature="339:382" ph="SELECT * FRO... usuario" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insertarNuevoCliente.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procesos/insertarNuevoCliente.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1474">
+              <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+              <folding>
+                <marker date="1476193957298" expanded="true" signature="1297:1532" ph="INSERT INTO usuario... " />
+                <marker date="1476193957298" expanded="true" signature="1549:1730" ph="SELECT idUsu... usuario" />
+                <marker date="1476193957298" expanded="true" signature="2082:2131" ph="INSERT INTO cliente... " />
+                <marker date="1476193957298" expanded="true" signature="2286:2322" ph="SELECT * FRO... usuario" />
+                <marker date="1476193957298" expanded="true" signature="2508:2567" ph="INSERT INTO usuariorol... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="formClienteDireccion.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vistas/ajax/formClienteDireccion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2222">
+              <caret line="101" column="26" selection-start-line="101" selection-start-column="26" selection-end-line="101" selection-end-column="26" />
+              <folding>
+                <marker date="1476208157484" expanded="true" signature="315:384" ph="UPDATE usuar... " />
+                <marker date="1476208157484" expanded="true" signature="1646:1822" ph="SELECT * FRO... usuario" />
+                <marker date="1476208157484" expanded="true" signature="1646:1823" ph="SELECT u.idU... usuario" />
+                <marker date="1476208157484" expanded="true" signature="1989:2030" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pruebaMarkers.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procesos/pruebaMarkers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insertarNuevaDireccion.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procesos/insertarNuevaDireccion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
+              <folding>
+                <marker date="1476206416609" expanded="true" signature="340:514" ph="INSERT INTO direccion... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,50 +124,67 @@
       <file leaf-file-name="formNuevoUsuario.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Vistas/ajax/formNuevoUsuario.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2616">
-              <caret line="205" column="45" selection-start-line="205" selection-start-column="20" selection-end-line="205" selection-end-column="45" />
-              <folding />
+            <state relative-caret-position="352">
+              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+              <folding>
+                <marker date="1475126438018" expanded="true" signature="348:417" ph="UPDATE usuar... " />
+                <marker date="1475126438018" expanded="true" signature="1555:1606" ph="SELECT * FRO... usuario" />
+                <marker date="1475126438018" expanded="true" signature="5080:5125" ph="SELECT idRol... usuariorol" />
+                <marker date="1475126438018" expanded="true" signature="5269:5306" ph="SELECT * FRO... rol" />
+                <marker date="1475126438018" expanded="true" signature="9326:9363" ph="SELECT * FRO... rol" />
+                <marker date="1475126438018" expanded="true" signature="11711:11732" ph="SELECT * FRO... usuario" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="insertarNuevoUsuario.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="insertarNuevoDistribuidor.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procesos/insertarNuevoDistribuidor.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+              <folding>
+                <marker date="1475139688168" expanded="true" signature="504:734" ph="INSERT INTO usuario... " />
+                <marker date="1475139688168" expanded="true" signature="749:930" ph="SELECT idUsu... usuario" />
+                <marker date="1475139688168" expanded="true" signature="1406:1442" ph="SELECT * FRO... usuario" />
+                <marker date="1475139688168" expanded="true" signature="1628:1687" ph="INSERT INTO usuariorol... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insertarNuevoUsuario.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Procesos/insertarNuevoUsuario.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="57" column="48" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
+            <state relative-caret-position="1342">
+              <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="64" selection-end-column="25" />
               <folding>
-                <marker date="1475492384219" expanded="true" signature="586:773" ph="INSERT INTO usuario... " />
-                <marker date="1475492384219" expanded="true" signature="586:816" ph="INSERT INTO usuario... " />
-                <marker date="1475492384219" expanded="true" signature="835:1016" ph="SELECT idUsu... usuario" />
-                <marker date="1475492384219" expanded="true" signature="1556:1592" ph="SELECT * FRO... usuario" />
-                <marker date="1475492384219" expanded="true" signature="1794:1856" ph="INSERT INTO usuariorol... " />
+                <marker date="1476188968349" expanded="true" signature="857:1049" ph="INSERT INTO usuario... " />
+                <marker date="1476188968349" expanded="true" signature="857:1092" ph="INSERT INTO usuario... " />
+                <marker date="1476188968349" expanded="true" signature="1111:1292" ph="SELECT idUsu... usuario" />
+                <marker date="1476188968349" expanded="true" signature="1832:1868" ph="SELECT * FRO... usuario" />
+                <marker date="1476188968349" expanded="true" signature="2070:2132" ph="INSERT INTO usuariorol... " />
+                <marker date="1476188968349" expanded="true" signature="2401:2446" ph="INSERT INTO cliente... " />
+                <marker date="1476188968349" expanded="true" signature="3573:3708" ph="..." />
+                <marker date="1476188968349" expanded="true" signature="3599:3708" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="formProducto.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vistas/ajax/formProducto.php">
+      <file leaf-file-name="autentificacion.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procesos/autentificacion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2090">
-              <caret line="95" column="106" selection-start-line="95" selection-start-column="106" selection-end-line="95" selection-end-column="106" />
+            <state relative-caret-position="1012">
+              <caret line="46" column="65" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="65" />
               <folding>
-                <marker date="1475480962887" expanded="true" signature="454:501" ph="DELETE FROM " />
-                <marker date="1475480962887" expanded="true" signature="1435:1457" ph="SELECT * FRO... producto" />
-                <marker date="1475480962887" expanded="true" signature="6093:6133" ph="SELECT * FRO... producto" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nuevoProducto.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Procesos/nuevoProducto.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-              <folding>
-                <marker date="1475477896690" expanded="true" signature="707:833" ph="INSERT INTO Producto... " />
+                <marker date="1475765365254" expanded="true" signature="891:937" ph="SELECT * FRO... usuario" />
+                <marker date="1475765365254" expanded="true" signature="1261:1324" ph="SELECT * FRO... usuario" />
+                <marker date="1475765365254" expanded="true" signature="1584:1605" ph="SELECT estad... usuario" />
+                <marker date="1475765365254" expanded="true" signature="1584:1622" ph="SELECT * FRO... usuario" />
+                <marker date="1475765365254" expanded="true" signature="1584:1626" ph="SELECT * FRO... usuario" />
+                <marker date="1475765365254" expanded="true" signature="1584:1645" ph="SELECT * FRO... usuario" />
+                <marker date="1475765365254" expanded="true" signature="1584:1702" ph="SELECT * FRO... usuario" />
               </folding>
             </state>
           </provider>
@@ -106,36 +199,27 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Procesos/instaladorBD.php" />
-        <option value="$PROJECT_DIR$/Vistas/ajax/formNuevoEquipo.php" />
-        <option value="$PROJECT_DIR$/Vistas/ajax/formEditUsuario.php" />
-        <option value="$PROJECT_DIR$/Procesos/ModificarUsuario.php" />
-        <option value="$PROJECT_DIR$/Procesos/cambiarEstadoUsuario.php" />
-        <option value="$PROJECT_DIR$/Vistas/css/style_v2.css" />
-        <option value="$PROJECT_DIR$/Vistas/ajax/page_login_v1.html" />
         <option value="$PROJECT_DIR$/Vistas/plugins/bootstrap/bootstrap.css" />
         <option value="$PROJECT_DIR$/Vistas/ajax/page_login.html" />
         <option value="$PROJECT_DIR$/Vistas/plugins/datatables/dataTables.bootstrap.js" />
         <option value="$PROJECT_DIR$/Vistas/plugins/datatables/jquery.dataTables.js" />
         <option value="$PROJECT_DIR$/Vistas/index.html" />
-        <option value="$PROJECT_DIR$/Procesos/cerrarSesion.php" />
         <option value="$PROJECT_DIR$/Procesos/usuarioRol.php" />
         <option value="$PROJECT_DIR$/Vistas/ajax/frmEmpleado.php" />
         <option value="$PROJECT_DIR$/Datos/conexion.php" />
         <option value="$PROJECT_DIR$/Vistas/ajax/formEmpleado.php" />
         <option value="$PROJECT_DIR$/Vistas/verificar.php" />
-        <option value="$PROJECT_DIR$/Vistas/ajax/login.html" />
         <option value="$PROJECT_DIR$/Vistas/ajax/formZona.php" />
         <option value="$PROJECT_DIR$/Vistas/ajax/formCambiarEstadoUsuario.php" />
         <option value="$PROJECT_DIR$/Procesos/Usuario.php" />
-        <option value="$PROJECT_DIR$/Procesos/cambiarContraseña.php" />
         <option value="$PROJECT_DIR$/Vistas/ajax/formAdmUsuario.php" />
-        <option value="$PROJECT_DIR$/Vistas/ajax/formCambiarContraseña.php" />
         <option value="$PROJECT_DIR$/email/envioMail.php" />
-        <option value="$PROJECT_DIR$/Procesos/autentificacion.php" />
         <option value="$PROJECT_DIR$/Vistas/ajax/formModUsuario.php" />
         <option value="$PROJECT_DIR$/Vistas/ajax/formNuevoUsuario.php" />
         <option value="$PROJECT_DIR$/Procesos/modificarProducto.php" />
@@ -146,20 +230,32 @@
         <option value="$PROJECT_DIR$/Procesos/modificarCliente.php" />
         <option value="$PROJECT_DIR$/Vistas/ajax/frmAdmCliente.php" />
         <option value="$PROJECT_DIR$/Vistas/ajax/formDistribuidor.php" />
-        <option value="$PROJECT_DIR$/Vistas/ajax/formClienteDireccion.php" />
-        <option value="$PROJECT_DIR$/Procesos/insertarNuevoCliente.php" />
-        <option value="$PROJECT_DIR$/Vistas/ajax/formNuevaDireccion.php" />
-        <option value="$PROJECT_DIR$/Procesos/insertarNuevaDireccion.php" />
         <option value="$PROJECT_DIR$/Procesos/nuevoEquipo.php" />
         <option value="$PROJECT_DIR$/Procesos/modificarEquipo.php" />
         <option value="$PROJECT_DIR$/Vistas/ajax/formEquipo.php" />
-        <option value="$PROJECT_DIR$/Vistas/js/devoops.js" />
-        <option value="$PROJECT_DIR$/Vistas/index.php" />
         <option value="$PROJECT_DIR$/Vistas/ajax/welcome.php" />
         <option value="$PROJECT_DIR$/Vistas/css/style_v1.css" />
         <option value="$PROJECT_DIR$/Procesos/nuevoProducto.php" />
         <option value="$PROJECT_DIR$/Vistas/ajax/formProducto.php" />
+        <option value="$PROJECT_DIR$/Procesos/cerrarSesion.php" />
+        <option value="$PROJECT_DIR$/Vistas/css/style_v2.css" />
+        <option value="$PROJECT_DIR$/Vistas/ajax/login.html" />
+        <option value="$PROJECT_DIR$/Procesos/cambiarContraseña.php" />
+        <option value="$PROJECT_DIR$/Vistas/ajax/formCambiarContraseña.php" />
+        <option value="$PROJECT_DIR$/Vistas/js/devoops.js" />
+        <option value="$PROJECT_DIR$/Vistas/ajax/pruebaGoogle.php" />
+        <option value="$PROJECT_DIR$/Vistas/ajax/formCambiarContra.php" />
+        <option value="$PROJECT_DIR$/Procesos/cambiarContra.php" />
+        <option value="$PROJECT_DIR$/Procesos/autentificacion.php" />
+        <option value="$PROJECT_DIR$/Web Services/autentificacion.php" />
+        <option value="$PROJECT_DIR$/WebServices/autentificacion.php" />
+        <option value="$PROJECT_DIR$/WebServices/registro_cliente.php" />
         <option value="$PROJECT_DIR$/Procesos/insertarNuevoUsuario.php" />
+        <option value="$PROJECT_DIR$/Procesos/insertarNuevoCliente.php" />
+        <option value="$PROJECT_DIR$/Procesos/insertarNuevaDireccion.php" />
+        <option value="$PROJECT_DIR$/Vistas/index.php" />
+        <option value="$PROJECT_DIR$/Vistas/ajax/formClienteDireccion.php" />
+        <option value="$PROJECT_DIR$/Vistas/ajax/formNuevaDireccion.php" />
       </list>
     </option>
   </component>
@@ -201,6 +297,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -218,10 +315,83 @@
               <option name="myItemId" value="Natureza" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebServices" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Natureza" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Natureza" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vistas" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Natureza" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Natureza" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vistas" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Natureza" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Natureza" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Procesos" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Natureza" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Natureza" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Natureza" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Natureza" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -313,18 +483,27 @@
       <workItem from="1475155552712" duration="8727000" />
       <workItem from="1475271338226" duration="593000" />
       <workItem from="1475385574712" duration="586000" />
-      <workItem from="1475441670874" duration="20617000" />
+      <workItem from="1475441670874" duration="21826000" />
+      <workItem from="1475645683096" duration="3448000" />
+      <workItem from="1475724439937" duration="21406000" />
+      <workItem from="1475813670369" duration="347000" />
+      <workItem from="1475880480935" duration="1084000" />
+      <workItem from="1475986376247" duration="6028000" />
+      <workItem from="1476035846725" duration="10778000" />
+      <workItem from="1476145758720" duration="17410000" />
+      <workItem from="1476231393965" duration="1186000" />
+      <workItem from="1476238668656" duration="118000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="282162000" />
+    <option name="totallyTimeSpent" value="345176000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1924" height="1048" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1610703" sideWeight="0.47859496" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14165792" sideWeight="0.47859496" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -342,6 +521,25 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15520833" sideWeight="0.47859496" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24791667" sideWeight="0.52140504" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -368,58 +566,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Vistas/plugins/datatables/dataTables.bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="73" column="18" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vistas/plugins/datatables/TableTools.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="601" column="38" selection-start-line="601" selection-start-column="33" selection-end-line="601" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vistas/plugins/datatables/jquery.dataTables.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="10849" column="35" selection-start-line="10849" selection-start-column="35" selection-end-line="10849" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vistas/index.html" />
-    <entry file="file://$PROJECT_DIR$/Vistas/ajax/frmEmpleado.php" />
     <entry file="file://$PROJECT_DIR$/Vistas/sesion.php" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_7.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22286">
           <caret line="1013" column="20" selection-start-line="1013" selection-start-column="20" selection-end-line="1013" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Procesos/cambiarContraseña.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Procesos/cerrarSesion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vistas/ajax/formCambiarContraseña.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -437,30 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="5" selection-start-line="3" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Procesos/autentificacion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-          <folding>
-            <marker date="1474984100089" expanded="true" signature="293:379" ph="SELECT * FRO... usuario" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Procesos/Usuario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-          <folding>
-            <marker date="1474381592322" expanded="true" signature="1760:1844" ph="Select * fro... usuario" />
-            <marker date="1474381592322" expanded="true" signature="1760:1845" ph="Select * fro... usuario" />
-            <marker date="1474381592322" expanded="true" signature="2598:2636" ph="Select * fro... Usuario" />
-            <marker date="1474381592322" expanded="true" signature="3300:3321" ph="Select * fro... usuario" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -487,36 +614,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vistas/ajax/formCambiarEstadoUsuario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="150" column="21" selection-start-line="150" selection-start-column="21" selection-end-line="162" selection-end-column="37" />
-          <folding>
-            <marker date="1474950122945" expanded="true" signature="334:403" ph="UPDATE usuar... " />
-            <marker date="1474950122945" expanded="true" signature="2599:2682" ph="SELECT idUsu... usuario" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Vistas/ajax/formEmpleado.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Procesos/modificarUsuario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <marker date="1475141126479" expanded="true" signature="501:649" ph="UPDATE usuar... " />
-            <marker date="1475141126479" expanded="true" signature="501:667" ph="UPDATE usuar... " />
-            <marker date="1475141126479" expanded="true" signature="501:671" ph="UPDATE usuar... " />
-            <marker date="1475141126479" expanded="true" signature="845:879" ph="UPDATE usuar... " />
-            <marker date="1475141126479" expanded="true" signature="845:901" ph="UPDATE usuar... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -562,29 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procesos/modificarCliente.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <marker date="1475141610352" expanded="true" signature="427:597" ph="UPDATE usuar... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Procesos/insertarNuevoDistribuidor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="13" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="92" selection-end-column="2" />
-          <folding>
-            <marker date="1475139688168" expanded="true" signature="504:734" ph="INSERT INTO usuario... " />
-            <marker date="1475139688168" expanded="true" signature="749:930" ph="SELECT idUsu... usuario" />
-            <marker date="1475139688168" expanded="true" signature="1406:1442" ph="SELECT * FRO... usuario" />
-            <marker date="1475139688168" expanded="true" signature="1628:1687" ph="INSERT INTO usuariorol... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Vistas/ajax/formDistribuidor.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -602,74 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="968">
           <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Procesos/insertarNuevoCliente.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="42" column="77" selection-start-line="42" selection-start-column="77" selection-end-line="42" selection-end-column="77" />
-          <folding>
-            <marker date="1475155876341" expanded="true" signature="504:734" ph="INSERT INTO usuario... " />
-            <marker date="1475155876341" expanded="true" signature="751:932" ph="SELECT idUsu... usuario" />
-            <marker date="1475155876341" expanded="true" signature="1415:1464" ph="INSERT INTO cliente... " />
-            <marker date="1475155876341" expanded="true" signature="1490:1526" ph="SELECT * FRO... usuario" />
-            <marker date="1475155876341" expanded="true" signature="1712:1771" ph="INSERT INTO usuariorol... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vistas/verificar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vistas/ajax/formClienteDireccion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-220">
-          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
-          <folding>
-            <marker date="1475151666155" expanded="true" signature="315:384" ph="UPDATE usuar... " />
-            <marker date="1475151666155" expanded="true" signature="1316:1492" ph="SELECT * FRO... usuario" />
-            <marker date="1475151666155" expanded="true" signature="1316:1493" ph="SELECT u.idU... usuario" />
-            <marker date="1475151666155" expanded="true" signature="1659:1700" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vistas/ajax/formNuevaDireccion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
-          <folding>
-            <marker date="1475159126139" expanded="true" signature="249:262" ph="SELECT * FRO... " />
-            <marker date="1475159126139" expanded="true" signature="249:294" ph="SELECT * FRO... direccion" />
-            <marker date="1475159126139" expanded="true" signature="339:382" ph="SELECT * FRO... usuario" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Procesos/insertarNuevaDireccion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding>
-            <marker date="1475159126213" expanded="true" signature="355:530" ph="INSERT INTO direccion... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vistas/ajax/formCliente.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <marker date="1475141363222" expanded="true" signature="316:385" ph="UPDATE usuar... " />
-            <marker date="1475141363222" expanded="true" signature="1387:1438" ph="SELECT * FRO... usuario" />
-            <marker date="1475141363222" expanded="true" signature="9119:9285" ph="SELECT u.idU... usuario" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -705,7 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="770">
           <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="40" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -720,56 +729,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vistas/ajax/formEquipo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="36" column="64" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
-          <folding>
-            <marker date="1475163252873" expanded="true" signature="412:455" ph="DELETE FROM " />
-            <marker date="1475163252873" expanded="true" signature="1363:1383" ph="SELECT * FRO... equipo" />
-            <marker date="1475163252873" expanded="true" signature="6005:6041" ph="SELECT * FRO... producto" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vistas/js/devoops.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="2982" column="55" selection-start-line="2982" selection-start-column="55" selection-end-line="2982" selection-end-column="55" />
-          <folding>
-            <marker date="1475458848219" expanded="true" signature="9106:9121" ph="..." />
-            <marker date="1475458848219" expanded="true" signature="9159:9174" ph="..." />
-            <marker date="1475458848219" expanded="true" signature="16209:16224" ph="..." />
-            <marker date="1475458848219" expanded="true" signature="16752:16767" ph="..." />
-            <marker date="1475458848219" expanded="true" signature="78503:78509" ph="©" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Vistas/css/style_v1.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="614">
           <caret line="1075" column="19" selection-start-line="1075" selection-start-column="19" selection-end-line="1075" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vistas/css/style_v2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="1027" column="7" selection-start-line="1027" selection-start-column="1" selection-end-line="1027" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vistas/ajax/welcome.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -778,23 +741,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vistas/ajax/formNuevoUsuario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2616">
-          <caret line="205" column="45" selection-start-line="205" selection-start-column="20" selection-end-line="205" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Vistas/ajax/formProducto.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2090">
           <caret line="95" column="106" selection-start-line="95" selection-start-column="106" selection-end-line="95" selection-end-column="106" />
-          <folding>
-            <marker date="1475480962887" expanded="true" signature="454:501" ph="DELETE FROM " />
-            <marker date="1475480962887" expanded="true" signature="1435:1457" ph="SELECT * FRO... producto" />
-            <marker date="1475480962887" expanded="true" signature="6093:6133" ph="SELECT * FRO... producto" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -808,36 +758,287 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vistas/index.php">
+    <entry file="file://$PROJECT_DIR$/Vistas/ajax/formEquipo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="72" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
-          <folding>
-            <marker date="1475467788829" expanded="true" signature="460:510" ph="SELECT IdRol... usuariorol" />
-            <marker date="1475467788829" expanded="true" signature="466:510" ph="Select IdRol... usuariorol" />
-            <marker date="1475467788829" expanded="true" signature="3347:3405" ph="..." />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/_superglobals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="172" column="3" selection-start-line="172" selection-start-column="1" selection-end-line="172" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procesos/cerrarSesion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/css/style_v2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="2252" column="0" selection-start-line="2252" selection-start-column="0" selection-end-line="2252" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/ajax/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="79" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/ajax/formCambiarEstadoUsuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="802">
+          <caret line="88" column="92" selection-start-line="88" selection-start-column="92" selection-end-line="88" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/verificar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Vistas/ajax/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="101" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procesos/modificarCliente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <marker date="1475141610352" expanded="true" signature="427:597" ph="UPDATE usuar... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/js/devoops.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="2983" column="61" selection-start-line="2983" selection-start-column="61" selection-end-line="2983" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procesos/Usuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="89" column="20" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
+          <folding>
+            <marker date="1474381592322" expanded="true" signature="1760:1844" ph="Select * fro... usuario" />
+            <marker date="1474381592322" expanded="true" signature="1760:1845" ph="Select * fro... usuario" />
+            <marker date="1474381592322" expanded="true" signature="2598:2636" ph="Select * fro... Usuario" />
+            <marker date="1474381592322" expanded="true" signature="3300:3321" ph="Select * fro... usuario" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/ajax/formCliente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="2" selection-start-line="1" selection-start-column="0" selection-end-line="16" selection-end-column="2" />
+          <folding>
+            <marker date="1475141363222" expanded="true" signature="316:385" ph="UPDATE usuar... " />
+            <marker date="1475141363222" expanded="true" signature="1387:1438" ph="SELECT * FRO... usuario" />
+            <marker date="1475141363222" expanded="true" signature="9119:9285" ph="SELECT u.idU... usuario" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/ajax/pruebaGoogle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/ajax/formCambiarContra.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="57" column="85" selection-start-line="57" selection-start-column="85" selection-end-line="57" selection-end-column="85" />
+          <folding>
+            <marker date="1476036260375" expanded="true" signature="317:386" ph="UPDATE usuar... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procesos/cambiarContra.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <marker date="1476036475336" expanded="true" signature="283:347" ph="UPDATE usuar... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebServices/autentificacion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebServices/registroCliente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-400">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procesos/modificarUsuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding>
+            <marker date="1475141126479" expanded="true" signature="501:649" ph="UPDATE usuar... " />
+            <marker date="1475141126479" expanded="true" signature="501:667" ph="UPDATE usuar... " />
+            <marker date="1475141126479" expanded="true" signature="501:671" ph="UPDATE usuar... " />
+            <marker date="1475141126479" expanded="true" signature="845:879" ph="UPDATE usuar... " />
+            <marker date="1475141126479" expanded="true" signature="845:901" ph="UPDATE usuar... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procesos/autentificacion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="46" column="65" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="65" />
+          <folding>
+            <marker date="1475765365254" expanded="true" signature="891:937" ph="SELECT * FRO... usuario" />
+            <marker date="1475765365254" expanded="true" signature="1261:1324" ph="SELECT * FRO... usuario" />
+            <marker date="1475765365254" expanded="true" signature="1584:1605" ph="SELECT estad... usuario" />
+            <marker date="1475765365254" expanded="true" signature="1584:1622" ph="SELECT * FRO... usuario" />
+            <marker date="1475765365254" expanded="true" signature="1584:1626" ph="SELECT * FRO... usuario" />
+            <marker date="1475765365254" expanded="true" signature="1584:1645" ph="SELECT * FRO... usuario" />
+            <marker date="1475765365254" expanded="true" signature="1584:1702" ph="SELECT * FRO... usuario" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procesos/pruebaMarkers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procesos/insertarNuevoDistribuidor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+          <folding>
+            <marker date="1475139688168" expanded="true" signature="504:734" ph="INSERT INTO usuario... " />
+            <marker date="1475139688168" expanded="true" signature="749:930" ph="SELECT idUsu... usuario" />
+            <marker date="1475139688168" expanded="true" signature="1406:1442" ph="SELECT * FRO... usuario" />
+            <marker date="1475139688168" expanded="true" signature="1628:1687" ph="INSERT INTO usuariorol... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/ajax/formNuevoUsuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding>
+            <marker date="1475126438018" expanded="true" signature="348:417" ph="UPDATE usuar... " />
+            <marker date="1475126438018" expanded="true" signature="1555:1606" ph="SELECT * FRO... usuario" />
+            <marker date="1475126438018" expanded="true" signature="5080:5125" ph="SELECT idRol... usuariorol" />
+            <marker date="1475126438018" expanded="true" signature="5269:5306" ph="SELECT * FRO... rol" />
+            <marker date="1475126438018" expanded="true" signature="9326:9363" ph="SELECT * FRO... rol" />
+            <marker date="1475126438018" expanded="true" signature="11711:11732" ph="SELECT * FRO... usuario" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Procesos/insertarNuevoUsuario.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="57" column="48" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
+        <state relative-caret-position="1342">
+          <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="64" selection-end-column="25" />
           <folding>
-            <marker date="1475492384219" expanded="true" signature="586:773" ph="INSERT INTO usuario... " />
-            <marker date="1475492384219" expanded="true" signature="586:816" ph="INSERT INTO usuario... " />
-            <marker date="1475492384219" expanded="true" signature="835:1016" ph="SELECT idUsu... usuario" />
-            <marker date="1475492384219" expanded="true" signature="1556:1592" ph="SELECT * FRO... usuario" />
-            <marker date="1475492384219" expanded="true" signature="1794:1856" ph="INSERT INTO usuariorol... " />
+            <marker date="1476188968349" expanded="true" signature="857:1049" ph="INSERT INTO usuario... " />
+            <marker date="1476188968349" expanded="true" signature="857:1092" ph="INSERT INTO usuario... " />
+            <marker date="1476188968349" expanded="true" signature="1111:1292" ph="SELECT idUsu... usuario" />
+            <marker date="1476188968349" expanded="true" signature="1832:1868" ph="SELECT * FRO... usuario" />
+            <marker date="1476188968349" expanded="true" signature="2070:2132" ph="INSERT INTO usuariorol... " />
+            <marker date="1476188968349" expanded="true" signature="2401:2446" ph="INSERT INTO cliente... " />
+            <marker date="1476188968349" expanded="true" signature="3573:3708" ph="..." />
+            <marker date="1476188968349" expanded="true" signature="3599:3708" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procesos/insertarNuevoCliente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1474">
+          <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+          <folding>
+            <marker date="1476193957298" expanded="true" signature="1297:1532" ph="INSERT INTO usuario... " />
+            <marker date="1476193957298" expanded="true" signature="1549:1730" ph="SELECT idUsu... usuario" />
+            <marker date="1476193957298" expanded="true" signature="2082:2131" ph="INSERT INTO cliente... " />
+            <marker date="1476193957298" expanded="true" signature="2286:2322" ph="SELECT * FRO... usuario" />
+            <marker date="1476193957298" expanded="true" signature="2508:2567" ph="INSERT INTO usuariorol... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procesos/insertarNuevaDireccion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
+          <folding>
+            <marker date="1476206416609" expanded="true" signature="340:514" ph="INSERT INTO direccion... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3630">
+          <caret line="165" column="75" selection-start-line="165" selection-start-column="75" selection-end-line="165" selection-end-column="75" />
+          <folding>
+            <marker date="1476207326095" expanded="true" signature="467:517" ph="SELECT IdRol... usuariorol" />
+            <marker date="1476207326095" expanded="true" signature="473:517" ph="Select IdRol... usuariorol" />
+            <marker date="1476207326095" expanded="true" signature="3432:3490" ph="..." />
+            <marker date="1476207326095" expanded="true" signature="4194:4215" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/ajax/formClienteDireccion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2222">
+          <caret line="101" column="26" selection-start-line="101" selection-start-column="26" selection-end-line="101" selection-end-column="26" />
+          <folding>
+            <marker date="1476208157484" expanded="true" signature="315:384" ph="UPDATE usuar... " />
+            <marker date="1476208157484" expanded="true" signature="1646:1822" ph="SELECT * FRO... usuario" />
+            <marker date="1476208157484" expanded="true" signature="1646:1823" ph="SELECT u.idU... usuario" />
+            <marker date="1476208157484" expanded="true" signature="1989:2030" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/ajax/formNuevaDireccion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="692">
+          <caret line="277" column="4" selection-start-line="277" selection-start-column="4" selection-end-line="277" selection-end-column="4" />
+          <folding>
+            <marker date="1476222973416" expanded="true" signature="249:262" ph="SELECT * FRO... " />
+            <marker date="1476222973416" expanded="true" signature="249:294" ph="SELECT * FRO... direccion" />
+            <marker date="1476222973416" expanded="true" signature="339:382" ph="SELECT * FRO... usuario" />
           </folding>
         </state>
       </provider>

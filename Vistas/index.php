@@ -1,6 +1,6 @@
 <?php
     session_start();
-    if (!$_SESSION['loggedin']) {
+    if (!isset($_SESSION['loggedin'])) {
         # code...
         header("location: ajax/login.html");
     } else {
@@ -18,10 +18,9 @@
     }
 ?>
 		<!DOCTYPE html>
-		<html lang="en">
+		<html lang="es">
 		<head>
-			<meta charset="utf-8">
-            <meta charset="ISO-8859-1" />
+			<meta charset="utf-8"/>
 			<title>Natureza</title>
             <link rel="icon" type="image/ico" href="img/natureza.ico" />
 			<meta name="description" content="description">
@@ -39,19 +38,18 @@
 			<link href="css/style_v1.css" rel="stylesheet">
 			<link href="plugins/chartist/chartist.min.css" rel="stylesheet">
 
-            <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyC6ng1uHCtw3tSewr-WFnc8DhRik2yocHU"></script>
-            <script type="text/javascript" src="./js/jquery-1.11.3.min.js"></script>
+            <!-- <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyC6ng1uHCtw3tSewr-WFnc8DhRik2yocHU"></script>
+            <script type="text/javascript" src="./js/jquery-1.11.3.min.js"></script> -->
 			<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 			<!--[if lt IE 9]>
 			<script src="http://getbootstrap.com/docs-assets/js/html5shiv.js"></script>
 			<script src="http://getbootstrap.com/docs-assets/js/respond.min.js"></script>
 			<![endif]-->
-            <style>
-                /*#map {
-                    height: 400px;
-                    width: 100%;
-                }*/
-            </style>
+           <!--  <style type="text/css">
+                html, body { height: 100%; margin: 0; padding: 0; }
+                #map { height: 100%; }
+            </style> -->
+
 		</head>
 		<body>
 		<!--Start Header-->
@@ -65,7 +63,7 @@
 						<div class="row">
 							<div class="col-xs-4 col-sm-12 top-panel-right">
 								<ul class="nav navbar-nav pull-right panel-menu">
-
+                                    <img style="width:50px;height: 50px;" src="img/naturezaIndex.jpg" alt="">
 									<li class="dropdown">
 										<a href="#" class="dropdown-toggle account" data-toggle="dropdown">
 											<div class="avatar"></div>
@@ -83,7 +81,7 @@
                                                 </a>
                                             </li>-->
                                             <li>
-                                                <a href="ajax/formCambiarContraseña.php">
+                                                <a href="ajax/formCambiarContra.php?id=<?php echo $ID;?>">
                                                     <i class="fa fa-unlock"></i>
                                                     <span>Cambiar contraseña</span>
                                                 </a>
@@ -91,7 +89,7 @@
 											<li>
 												<a href="../Procesos/cerrarSesion.php">
 													<i class="fa fa-power-off"></i>
-													<span>Logout</span>
+													<span>Cerrar Sesión</span>
 												</a>
 											</li>
 										</ul>
@@ -140,17 +138,17 @@
                             </li>
                             <li>
                                 <a href="#" class="dropdown-toggle">
-                                    <i class="fa fa-map-marker"></i>
+                                    <i class="fa fa-location-arrow"></i>
                                     <span class="hidden-xs">Administrar Zonas</span>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="ajax-link" href="ajax/formZona.php">Gestión de Zona</a></li>
-                                    <li><a class="ajax-link" href="ajax/formZona.php">Ver Zonas</a></li>
+                                    <li><a class="ajax-link" href="ajax/formGestionZona.php">Gestión de Zona</a></li>
+                                    <li><a class="ajax-link" href="ajax/formVerZona.php">Ver Zonas</a></li>
                                 </ul>
                             </li>
                             <li>
                                 <a href="#" class="dropdown-toggle">
-                                    <i class="fa fa-location-arrow"></i>
+                                    <i class="fa  fa-map-marker"></i>
                                     <span class="hidden-xs">Administrar Direcciones</span>
                                 </a>
                                 <ul class="dropdown-menu">
@@ -164,18 +162,18 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="ajax-link" href="#">Reportes de Pedidos</a></li>
-                                    <li><a class="ajax-link" href="#">Repostes de Clientes</a></li>
-                                    <li><a class="ajax-link" href="#">Repostes de Equipos</a></li>
-                                    <li><a class="ajax-link" href="#">Repostes de Productos</a></li>
+                                    <li><a class="ajax-link" href="#">Reportes de Clientes</a></li>
+                                    <li><a class="ajax-link" href="#">Reportes de Equipos</a></li>
+                                    <li><a class="ajax-link" href="#">Reportes de Productos</a></li>
                                 </ul>
                             </li>
                         <?php endif; ?>
 
-                        <!-- Encargado de Pedido -->
+                        <!-- Empleado -->
                         <?php if ($ROL['IdRol'] == '2'): ?>
                             <li>
                                 <a href="#" class="dropdown-toggle">
-                                    <i class="fa fa-map-marker"></i>
+                                    <i class="fa fa-location-arrow"></i>
                                     <span class="hidden-xs">Administrar Zonas</span>
                                 </a>
                                 <ul class="dropdown-menu">
@@ -193,7 +191,7 @@
                             </li>
                             <li>
                                 <a href="#" class="dropdown-toggle">
-                                    <i class="fa fa-desktop"></i>
+                                    <i class="fa fa-bus"></i>
                                     <span class="hidden-xs">Administrar Distribución</span>
                                 </a>
                                 <ul class="dropdown-menu">
@@ -213,7 +211,7 @@
                             </li>
                             <li>
                                 <a href="#" class="dropdown-toggle">
-                                    <i class="fa fa-desktop"></i>
+                                    <i class="fa fa-shopping-cart"></i>
                                     <span class="hidden-xs">Administrar Pedidos</span>
                                 </a>
                                 <ul class="dropdown-menu">
@@ -228,7 +226,7 @@
                         <?php if ($ROL['IdRol'] == '3'): ?>
                             <li>
                                 <a href="#" class="dropdown-toggle">
-                                    <i class="fa fa-coffee"></i>
+                                    <i class="fa fa-credit-card"></i>
                                     <span class="hidden-xs">Administrar Pagos</span>
                                 </a>
                                 <ul class="dropdown-menu">
@@ -237,7 +235,7 @@
                             </li>
                             <li>
                                 <a href="#" class="dropdown-toggle">
-                                    <i class="fa fa-desktop"></i>
+                                    <i class="fa fa-bus"></i>
                                     <span class="hidden-xs">Administrar Pedidos</span>
                                 </a>
                                 <ul class="dropdown-menu">
@@ -251,7 +249,7 @@
                         <?php if ($ROL['IdRol'] == '4'): ?>
                             <li>
                                 <a href="#" class="dropdown-toggle">
-                                    <i class="fa fa-angle-up"></i>
+                                    <i class="fa fa-shopping-cart"></i>
                                     <span class="hidden-xs">Solicitud Pedidos</span>
                                 </a>
                                 <ul class="dropdown-menu">
